@@ -5,3 +5,9 @@ contract Main {
         //TODO: Create the DAO
     }
 }
+
+contract {
+    function {
+        //TODO: Build out a comprehensice 
+    }
+}
