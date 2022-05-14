@@ -26,3 +26,10 @@ def get_storage_location_by_name(name):
         if location == name:
             return region
     return None
+
+def get_storage_location_by_name_regex(name):
+    for region, location in aws_storage_locations.items():
+        if re.search(name, location):
+            return region
+    return None
+
